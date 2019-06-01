@@ -1,0 +1,475 @@
+.navbar-nav .nav-item a {
+  -webkit-transition: font-size 0.25s;
+  transition: font-size 0.25s;
+}
+.navbar-nav .nav-item a:hover {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-row, .contact-us {
+  display: none;
+}
+
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.carousel-box {
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-image {
+  height: 50vh;
+  width: 100vw;
+}
+
+.ci-last {
+  width: 100vw;
+  height: 100vh;
+}
+
+.caption-small {
+  bottom: 100px;
+}
+
+.caption-big {
+  display: none;
+}
+
+.exposition {
+  text-align: center;
+  margin: 3rem auto;
+  width: 75vw;
+  background-color: #3675db;
+  color: white;
+  padding: 1rem .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.our-story {
+  display: block;
+  width: 97vw;
+  text-align: center;
+  font-weight: 500;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  color: white;
+  background-color: #0F3F67;
+  text-decoration: none;
+}
+
+.our-story:active, .our-story:hover, .our-story:visited {
+  color: white;
+  background-color: #3675db;
+  text-decoration: none;
+}
+
+.last-hr {
+  height:1px;
+  border:none;
+  color:#333;
+  background-color:#333;
+}
+
+.the-footer {
+  position: relative;
+  top: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hello-future {
+  z-index: 1;
+  background-image: url("images/about-us.jpg");
+  background-size: cover;
+  color: #fff;
+  height: 30vh;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.about-us {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-bottom: 0;
+  background-color: #769FD5;
+  color: white;
+}
+
+.about-us-middle {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-bottom: 0;
+  background-color: white;
+  color: black;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+ /* No media query since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100%;
+  }
+
+  .caption-small {
+    bottom: 50px;
+  }
+
+  .hello-future {
+    height: 50vh;
+    width: 100vw;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .caption-small {
+    bottom: 50px;
+  }
+
+  .hello-future {
+    padding-top: 13rem;
+    font-size: 5.5rem; 
+  }
+
+  .about-us {
+    font-size: 1.5rem;
+  }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .navbar-nav .nav-item a {
+    -webkit-transition: font-size 0.25s;
+    transition: font-size 0.25s;
+  }
+  .navbar-nav .nav-item a:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .vision-mission, .products, .our-story, .the-footer, .caption-small, .last-hr {
+    display: none;
+  }
+
+  .nav-li-a {
+    border-right: 1px solid black;
+  }
+  .last-nav {
+    padding: 0 1rem;
+  }
+
+  .carousel-box {
+    width: 85vw;
+    height: 73vh;
+    overflow: visible;
+  }
+  
+  .carousel-image {
+    width: 85vw;
+    height: 73vh;
+  }
+
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 897px;
+  }
+
+  .caption-big {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 345px;
+    right: 0%;
+    bottom: 121px;
+    left: 24%;
+    z-index: 10;
+    padding-top: 171px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .caption-big:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .caption-big h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .caption-big p {
+    font-size: .6rem;
+  }
+
+  .f-icon {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+    display: block;
+    width: 64px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: all 0.25s linear;
+  }
+  
+  .contact-us {
+    display: block;
+    width: 10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1.5rem;
+    margin-top: 12rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-color: #0F3F67;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  .footer-row {
+    display: flex;
+    background-color: #113E67;
+    color: white;
+    width: 114.1%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-row-left {
+    padding-left: 4rem;
+    padding-top: 1.2rem;
+  }
+  
+  .footer-row-left .big-p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 520;
+    font-size: 1.05rem;
+  }
+  
+  .footer-row-left .small-p {
+   font-size: .8rem;
+   margin-top: 0;
+   padding-top: 0;
+  }
+  
+  .footer-row-right {
+    text-align: center;
+    margin: 0;
+    padding-left: 3.9rem;
+    padding-top: 1rem;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-link:hover {
+    color: grey;
+    text-decoration: none;
+  }
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .navbar-nav .nav-item a {
+    -webkit-transition: font-size 0.25s;
+    transition: font-size 0.25s;
+  }
+  .navbar-nav .nav-item a:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .vision-mission, .products, .our-story, .the-footer, .caption-small, .last-hr {
+    display: none;
+  }
+  
+  .nav-li-a {
+    border-right: 1px solid black;
+  }
+  .last-nav {
+    padding: 0 1rem;
+  }
+
+  .carousel-box {
+    width: 92vw;
+    height: 73vh;
+    overflow: visible;
+  }
+  
+  .carousel-image {
+    width: 100vw;
+    height: 73vh;
+  }
+
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .caption-big {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 345px;
+    right: 0%;
+    bottom: 121px;
+    left: 57%;
+    z-index: 10;
+    padding-top: 171px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .caption-big:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .caption-big h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .caption-big p {
+    font-size: .6rem;
+  }
+
+  .f-icon {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+    display: block;
+    width: 64px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: all 0.25s linear;
+  }
+
+  
+  .contact-us {
+    display: block;
+    width: 10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1.5rem;
+    margin-top: 12rem;
+    margin-left: 21rem;
+    color: white;
+    background-color: #0F3F67;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  .footer-row {
+    display: flex;
+    background-color: #113E67;
+    color: white;
+    width: 145%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-row-left {
+    padding-left: 4rem;
+    padding-top: 1.2rem;
+  }
+  
+  .footer-row-left .big-p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 520;
+    font-size: 1.05rem;
+  }
+  
+  .footer-row-left .small-p {
+   font-size: .8rem;
+   margin-top: 0;
+   padding-top: 0;
+  }
+  
+  .footer-row-right {
+    text-align: center;
+    margin: 0;
+    padding-left: 3.9rem;
+    padding-top: 1rem;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-link:hover {
+    color: grey;
+    text-decoration: none;
+  }
+
+  .hello-future {
+    z-index: 1;
+    background-image: url("images/about-us.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 50vh;
+    width: 94vw;
+    text-align: center;
+    padding-top: 8rem;
+    padding-left: 8rem;
+    font-size: 4rem;
+  }
+
+  .about-us {
+    font-size: .5rem;
+  }
+  .about-image {
+    display: none;
+  }
+
+  .about-us-big, .about-us-middle {
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-bottom: 0;
+    background-color: #769FD5;
+    color: white;
+    font-size: .5rem;
+  }
+  
+ }
